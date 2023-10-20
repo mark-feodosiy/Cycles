@@ -51,10 +51,10 @@ public class Main {
         System.out.println();
         {
             // Задача № 8
-            int deposit = 100000;
-
-            for (int month = 1; i <= 512; i = i * 2) {
-                System.out.print(i + " ");
+            //int deposit = 100000;
+            //int depositTotal = 560000;
+            for (int deposit = 100000, depositTotal = deposit,  month = 0; month <= 12; depositTotal = depositTotal + 29000, month = month + 1) {
+                System.out.println("Месяц " + month + ", сумма накоплений равна " + depositTotal + " рублей");
             }
         }
     }
