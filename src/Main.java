@@ -51,6 +51,8 @@ public class Main {
         System.out.println();
         {
             // Задача № 8
+            int deposit = 100000;
+
             for (int month = 1; i <= 512; i = i * 2) {
                 System.out.print(i + " ");
             }
