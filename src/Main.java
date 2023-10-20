@@ -62,5 +62,12 @@ public class Main {
                 System.out.println("Месяц " + month + ", сумма накоплений равна " + depositTotal + " рублей");
             }
         }
+        System.out.println();
+        {
+            // Задача № 10
+            for (int i = 1, n = 1; i <= 20; n = n + 1, i = n * 2) {
+                System.out.println("2*" + n + "=" + i );
+            }
+        }
     }
 }
